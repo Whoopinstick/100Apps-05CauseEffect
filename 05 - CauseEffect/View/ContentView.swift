@@ -9,8 +9,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    let people: [Person] = Bundle.main.decode("people.json")
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            List {
+                ForEach(people) { person in
+                    Text(person.firstName)
+                }
+            }
+        }
     }
 }
 

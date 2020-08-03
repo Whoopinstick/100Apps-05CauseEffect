@@ -9,13 +9,13 @@
 import Foundation
 
 struct Person: Identifiable, Codable {
-    var id = UUID()
+    let id = UUID()
     var firstName: String
     var lastName: String
-    var age: Int
+    var age: String
     var street: String
     var street2: String?
     var city: String
     var state: String
-    var zip: Int
+    var zip: String
 }

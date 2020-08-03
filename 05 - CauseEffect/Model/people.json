@@ -1,23 +1,23 @@
 [
     {
-      "firstName": "Kevin",
-      "lastName": "Paul",
-      "age": "36",
-      "street": "1234 Main",
-      "street2": "Apt 101",
-      "city": "Flint",
-      "state": "MI",
-      "zip": "48506"
+        "firstName": "Kevin",
+        "lastName": "Paul",
+        "age": "36",
+        "street": "1234 Main",
+        "street2": "Apt 101",
+        "city": "Flint",
+        "state": "MI",
+        "zip": "48506"
     },
     {
-      "firstName": "Bob",
-      "lastName": "Smith",
-      "age": "45",
-      "street": "3456 First Ave",
-      "street2": "PO Box 234",
-      "city": "Detroit",
-      "state": "MI",
-      "zip": "48123"
+        "firstName": "Bob",
+        "lastName": "Smith",
+        "age": "45",
+        "street": "3456 First Ave",
+        "street2": "PO Box 234",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "48123"
     },
     {
         "firstName": "Jane",
@@ -27,9 +27,6 @@
         "city": "Austin",
         "state": "TX",
         "zip": "81908"
-      }
-
-
-
-
-  ]
+    }
+    
+]
