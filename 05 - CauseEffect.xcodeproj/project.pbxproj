@@ -56,12 +56,10 @@
 		0ACA26BA24D799F1004D1304 /* 05 - CauseEffect */ = {
 			isa = PBXGroup;
 			children = (
-				0ACA26BB24D799F1004D1304 /* AppDelegate.swift */,
-				0ACA26BD24D799F1004D1304 /* SceneDelegate.swift */,
-				0ACA26BF24D799F1004D1304 /* ContentView.swift */,
 				0ACA26C124D799F2004D1304 /* Assets.xcassets */,
-				0ACA26C624D799F2004D1304 /* LaunchScreen.storyboard */,
 				0ACA26C924D799F2004D1304 /* Info.plist */,
+				0ACA26CF24D79A05004D1304 /* Delegate */,
+				0ACA26D024D79A1B004D1304 /* View */,
 				0ACA26C324D799F2004D1304 /* Preview Content */,
 			);
 			path = "05 - CauseEffect";
@@ -73,6 +71,24 @@
 				0ACA26C424D799F2004D1304 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0ACA26CF24D79A05004D1304 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA26BB24D799F1004D1304 /* AppDelegate.swift */,
+				0ACA26BD24D799F1004D1304 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		0ACA26D024D79A1B004D1304 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA26C624D799F2004D1304 /* LaunchScreen.storyboard */,
+				0ACA26BF24D799F1004D1304 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
