@@ -14,9 +14,24 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(people) { person in
-                    Text(person.firstName)
+                    NavigationLink(destination: DetailView(person: person)) {
+                        HStack {
+                            Image(person.firstName)
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 200, height: 200)
+                            
+                            
+                            VStack(alignment: .leading) {
+                                Text(person.firstName)
+                                Text(person.lastName)
+                            }
+                        }
+                    }
                 }
             }
+                
+            .navigationBarTitle("Contacts")
         }
     }
 }
