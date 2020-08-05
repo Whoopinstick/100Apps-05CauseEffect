@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AC11E4324DA454F00A52334 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC11E4224DA454F00A52334 /* DetailView.swift */; };
 		0ACA26BC24D799F1004D1304 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA26BB24D799F1004D1304 /* AppDelegate.swift */; };
 		0ACA26BE24D799F1004D1304 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA26BD24D799F1004D1304 /* SceneDelegate.swift */; };
 		0ACA26C024D799F1004D1304 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA26BF24D799F1004D1304 /* ContentView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AC11E4224DA454F00A52334 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		0ACA26B824D799F1004D1304 /* 05 - CauseEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05 - CauseEffect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACA26BB24D799F1004D1304 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ACA26BD24D799F1004D1304 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				0ACA26C624D799F2004D1304 /* LaunchScreen.storyboard */,
 				0ACA26BF24D799F1004D1304 /* ContentView.swift */,
+				0AC11E4224DA454F00A52334 /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ACA26BC24D799F1004D1304 /* AppDelegate.swift in Sources */,
+				0AC11E4324DA454F00A52334 /* DetailView.swift in Sources */,
 				0ACA26BE24D799F1004D1304 /* SceneDelegate.swift in Sources */,
 				0ACA26D824D7A066004D1304 /* Bundle-Decodable.swift in Sources */,
 				0ACA26D324D79B26004D1304 /* Person.swift in Sources */,

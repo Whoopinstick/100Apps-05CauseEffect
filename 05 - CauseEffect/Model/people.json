@@ -1,7 +1,7 @@
 [
     {
         "firstName": "Kevin",
-        "lastName": "Paul",
+        "lastName": "Franklin",
         "age": "36",
         "street": "1234 Main",
         "street2": "Apt 101",
@@ -27,6 +27,60 @@
         "city": "Austin",
         "state": "TX",
         "zip": "81908"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Doe",
+        "age": "65",
+        "street": "987 Vassar",
+        "city": "Burton",
+        "state": "MI",
+        "zip": "48509"
+    },
+    {
+        "firstName": "Tammy",
+        "lastName": "Davids",
+        "age": "50",
+        "street": "62 First",
+        "city": "New York",
+        "state": "NY",
+        "zip": "81209"
+    },
+    {
+        "firstName": "Harry",
+        "lastName": "Fletcher",
+        "age": "43",
+        "street": "76 Second",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": "76423"
+    },
+    {
+        "firstName": "Lucy",
+        "lastName": "Baker",
+        "age": "54",
+        "street": "422 Fourth",
+        "city": "New Orleans",
+        "state": "LA",
+        "zip": "66554"
+    },
+    {
+        "firstName": "Tony",
+        "lastName": "Bell",
+        "age": "22",
+        "street": "676 Main",
+        "city": "Kansas City",
+        "state": "KS",
+        "zip": "77112"
+    },
+    {
+        "firstName": "Emily",
+        "lastName": "Romano",
+        "age": "36",
+        "street": "101 Fremont",
+        "city": "Las Vegas",
+        "state": "NV",
+        "zip": "89101"
     }
     
 ]
